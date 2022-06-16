@@ -10,11 +10,16 @@ h1{
     color: rosybrown;
     text-align: center;
 }
-p{
+p {
     color: #2A403D;
     text-align: justify;
 }
 .liens {
     margin-top: 3rem;
     text-align: center;
+}
+img{
+    text-align: center;
+    margin: auto;
+    display: flex;
 }
