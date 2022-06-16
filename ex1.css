@@ -1,0 +1,122 @@
+h1 {
+    background-color: rgb(240, 240, 240);   
+    text-align: center;
+}
+
+.bloc_haut {
+    display: flex;
+}
+
+p {
+    line-height: 35px;
+}
+
+/* BLOC HAUT GAUCHE*/
+
+.div_g {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    background-color: #d4d4d4;
+    margin-right: 1rem;
+    padding: .5rem;
+    width: 25%;
+    border-top: 1px solid ;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.h1_g {
+    text-align: center;
+    background-color: rgb(240, 240, 240);   
+    border-top: 1px solid;
+    border-left: 1px solid;
+}
+
+
+
+.p_g::first-letter {
+    float: left;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+/* BLOC MILIEU */
+
+.bloc_milieu {
+    padding: 1rem;
+    background-color: rgb(190, 190, 190);
+    border: 1.5px dashed black;
+}
+
+.div_m_haut {
+    border-top: 1px solid;
+    background-color: rgb(212, 212, 212);
+}
+
+.h1_m_haut {
+    width: 50%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.bloc_bas {
+    background-color: rgb(212, 212, 212);
+    border-bottom: 1px solid;
+}
+
+.h1_bas {
+    background-color: rgb(212, 212, 212);
+    width: 25%;
+    text-align: right;
+    font-style: italic;
+    float: right;
+    padding-right: 1rem;
+}
+
+.p_bas {
+    clear: right;
+    margin: 0 auto;
+    padding: .5rem;
+    width: 66%;
+    text-align: justify;
+    border-left: solid;
+    border-right: solid;
+    /*pb marge bottom*/
+}
+
+.div_droite {
+    padding: .5rem;
+    background-color: rgb(212, 212, 212);
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 25%;
+}
+
+.p_d {
+    text-align: right;
+}
+
+/* footer mais c'est la ligne du bas pour rappel*/
+
+.div_foot {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: .5rem;
+    background-color: rgb(212, 212, 212);
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+}
+
+.foot {
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(240, 240, 240);
+}
+
+.p_foot {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
